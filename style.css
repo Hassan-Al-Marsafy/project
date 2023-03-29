@@ -159,7 +159,7 @@ body{
     margin-top: 10px;
     position: absolute;
     right: 30px;
-    width: 100%;
+    width: 500px;
     border-radius: 30px;
 }
 .photo{
@@ -191,4 +191,6 @@ body{
     top: 530px;
     width: 180px;
     height: 516px;
+    border: 2px solid whitesmoke;
+    border-radius: 10px;
 }
