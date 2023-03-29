@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Contact Us</title>
+    <link rel="stylesheet" href="toolbar.css">
+	
+</head>
+<body>
+	<div class="container">
+		<h1>Contact Us</h1>
+		
+			<label class="label" type="text" placeholder="name">
+                <br> Name: <br>
+
+            </label>
+			<input class="nam-e" type="text" name="name" required>
+			<label><br>Email:<br></label>
+			<input class="e-mail" type="email" name="email" required>
+            
+			<label><br>Message:<br></label>
+			<textarea class="messag-e" name="message" required></textarea>
+			<input class="send-but" type="submit" value="Send">
+			
+			<p class="tro-con">
+				<strong>	If  you have trouble contacting us please send to us directly on this email:fadlyafadlya@gmail.com</strong>
+				</p>
+			</div>
+			
+        </div>
+    </div>
+    <div class="toolbar">
+      <div class="leftpart">
+        <img class="logo" src="85534.jpg">
+      </div>
+      <div class="rightpart">
+        <a class="link" href="notes.html">
+          <button class="buttons">home</button>
+        </a>
+        <a href="choosetype.html">
+        <button class="buttons">products</button>
+      </a>
+        <a class="link" href="contact us.html">
+        <button class="buttons">contact us</button>
+        </a>
+        <a href="signin.html">
+          <button class="buttons" >login/register</button>
+        </a>
+        <a href="profile.html">
+          <button class="buttons" >profile</button>
+        </a>
+        <div class="cartcontainer">
+          <div class="incart">0</div>
+          <a href="cart.html">
+            <button class="buttons"><img class="cart" src="cart.png"></button>  
+          </a>
+        </div>
+		</form>
+		
+	</div>
+	
+</body>
+</html>
+<style>
+
+
+.container {
+	height: 310px;
+	width: 600px;
+	padding: 40px;
+	background-color:whitesmoke;
+    color: #0d9cdf;
+	border-radius: 10px;
+	box-shadow: 0 0 10px rgba(0,0,0,0.3);
+   position: fixed;
+    top:50%;
+    left: 50%;
+    margin-top: -200px;
+    margin-left: -300px;
+    font-family: 'Courier New', Courier, monospace;
+	
+}
+
+h1 {
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+}
+
+label {
+	font-weight: bold;
+	margin-bottom: 5px;
+    width: 300px;
+    
+}
+
+input[type="text"], input[type="email"], textarea {
+	padding: 10px;
+	margin-bottom:10px;
+    
+    }
+    .send-but{
+        border: none;
+        width: 75px;
+        height: 25px;
+        background-color: #0d9cdf;
+        color: white;
+        transition: background-color 1s,color 1s;
+        border-radius: 2px;
+        cursor: pointer;
+        
+    }
+    .send-but:hover{
+        background-color: white;
+        color:#0d9cdf;
+    }
+    .tro-con{
+		color: black;
+		margin-top: 50px;
+        margin-bottom: 50px;
+	}
+	body{
+    padding: 20px;
+    background-color:#d0efff;
+}
+.nam-e{
+    width: 500px;
+}
+.e-mail{
+    width: 500px;
+}
+.messag-e{
+    width: 500px;
+}
+        </style>
